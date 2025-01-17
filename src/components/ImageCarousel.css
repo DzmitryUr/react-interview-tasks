@@ -1,0 +1,7 @@
+.carousel button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
