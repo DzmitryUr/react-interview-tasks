@@ -1,19 +1,23 @@
-import { ImageCarousel } from './components/ImageCarousel';
+import { SearchBar } from './components/SearchBar';
 import './App.css';
 
-const images = [
-  'https://picsum.photos/id/10/600/400',
-  'https://picsum.photos/id/11/600/400',
-  'https://picsum.photos/id/12/600/400',
-  'https://picsum.photos/id/13/600/400',
-  'https://picsum.photos/id/15/600/400',
+const items = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'ReactJS',
+  'Angular',
+  'Vue',
+  'Svelte',
+  'NodeJS',
+  'NextJS',
 ];
 
 function App() {
   return (
     <>
       <h1>React Interview Challenges</h1>
-      <ImageCarousel images={images} />
+      <SearchBar items={items} />
     </>
   );
 }
