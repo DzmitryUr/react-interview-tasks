@@ -1,0 +1,21 @@
+.tab-buttons {
+  margin: 0.5rem 0;
+}
+
+.tab-content {
+  padding: 0.5rem;
+  border-top: 1px solid #888;
+}
+
+.tab-button {
+  padding: 0.5rem 1rem;
+  margin-right: 0.1rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.tab-button.active {
+  border-color: #888;
+  background-color: #fff;
+  font-weight: bold;
+}
