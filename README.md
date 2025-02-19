@@ -46,10 +46,10 @@ Below are some of the tasks included in this repository:
 
 ## Guidelines
 
-Each task is contained in a separate `.jsx` file within the `components/` directory.
-Follow best practices for React development.
-Use functional components and hooks where applicable.
-Keep your code clean, readable, and well-commented.
+- Each task is contained in a separate `.jsx` file within the `components/` directory.
+- Follow best practices for React development.
+- Use functional components and hooks where applicable.
+- Keep your code clean, readable, and well-commented.
 
 ## Contributing
 
