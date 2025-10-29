@@ -1,0 +1,10 @@
+.panel {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.title {
+  background-color: #f1f1f1;
+  padding: 10px;
+  cursor: pointer;
+}

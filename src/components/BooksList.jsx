@@ -24,7 +24,7 @@ export function BooksList() {
   return (
     <div>
       <h2>Books List</h2>
-      <ul className='books-list'>
+      <ul className="books-list">
         {books.map(({ id, title, author, genre }) => (
           <li key={id}>
             <hr />
