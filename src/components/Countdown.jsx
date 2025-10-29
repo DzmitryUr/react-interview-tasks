@@ -27,6 +27,7 @@ export function CountUp() {
 
   return (
     <div>
+      <h2>Count Up</h2>
       <p>{num}</p>
       <button onClick={handleClick}>{paused ? 'Run' : 'Pause'}</button>
     </div>
