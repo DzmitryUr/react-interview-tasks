@@ -1,0 +1,46 @@
+.countdown-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.countdown-grid {
+  display: flex;
+  gap: 2rem;
+  max-width: 800px;
+}
+
+.time-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  padding: 2rem 1rem;
+}
+
+.time-value {
+  font-size: 4rem;
+  font-weight: 900;
+  color: white;
+}
+
+.time-label {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.9);
+  text-transform: uppercase;
+}
+
+.message {
+  font-size: 1.8rem;
+  color: white;
+  font-weight: 600;
+}
