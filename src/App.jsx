@@ -1,8 +1,8 @@
-import { CountUp } from './components/CountUp';
+import { CountDown } from './components/CountDown';
 import './App.css';
 
 function App() {
-  return <CountUp />;
+  return <CountDown />;
 }
 
 export default App;
