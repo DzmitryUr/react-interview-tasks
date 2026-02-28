@@ -1,8 +1,8 @@
-import { CountDown } from './components/CountDown';
+import { StarRating } from './components/StarRating';
 import './App.css';
 
 function App() {
-  return <CountDown />;
+  return <StarRating />;
 }
 
 export default App;
